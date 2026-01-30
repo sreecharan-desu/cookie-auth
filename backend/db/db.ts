@@ -1,6 +1,9 @@
 import mongoose from "mongoose";import dotenv from "dotenv";
 dotenv.config();
 
+/**
+ * connectDB utility.
+ */
 export const connectDB = async () => {
     try {
         console.log("Trying to connect to DB . . .")
