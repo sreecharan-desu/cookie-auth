@@ -24,5 +24,8 @@ const userSchema = new mongoose.Schema({
 })
 
 
+/**
+ * User utility.
+ */
 export const User = mongoose.model("User",userSchema);
 connectDB();
