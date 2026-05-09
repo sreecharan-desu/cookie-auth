@@ -25,6 +25,9 @@ const apiCall = async (apiUri: string, body: any, method: HTTPMethod): Promise<a
     return res.json();
 };
 
+/**
+ * apis utility.
+ */
 export const apis = {
     signup(email: string, password: string): Promise<any> {
         return apiCall(`${BASE_URL}/signup`, { email, password }, 'POST');
