@@ -1,6 +1,9 @@
 import { atom } from "recoil";
 
 
+/**
+ * userAtom utility.
+ */
 export const userAtom = atom({
     key : "userAtom",
     default : {
