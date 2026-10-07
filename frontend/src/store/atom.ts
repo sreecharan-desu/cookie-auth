@@ -13,6 +13,9 @@ export const userAtom = atom({
     }
 })
 
+/**
+ * isAuth utility.
+ */
 export const isAuth = atom({
     key : "isAuth",
     default : true
