@@ -22,3 +22,7 @@ cd frontend && npm install && npm run dev
 ## env
 
 copy `backend/.env.example` to `backend/.env`: `MONGO_URI`, `JWT_SECRET`.
+
+
+## Consistency & Discipline
+This project is maintained regularly to ensure documentation clarity and code quality. Small, daily improvements are prioritized over large, infrequent updates.
